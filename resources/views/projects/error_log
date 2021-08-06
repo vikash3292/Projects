@@ -1,0 +1,112 @@
+[13-Jun-2020 07:43:45 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[13-Jun-2020 07:43:45 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[13-Jun-2020 07:43:45 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[13-Jun-2020 07:43:45 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[23-Jun-2020 02:42:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[23-Jun-2020 02:42:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[23-Jun-2020 02:42:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[23-Jun-2020 02:42:51 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[27-Jun-2020 23:05:50 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[27-Jun-2020 23:05:50 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[27-Jun-2020 23:05:50 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[27-Jun-2020 23:05:50 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[02-Jul-2020 21:11:44 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[02-Jul-2020 21:11:44 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[02-Jul-2020 21:11:44 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[02-Jul-2020 21:11:44 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[07-Jul-2020 18:56:38 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[07-Jul-2020 18:56:38 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[07-Jul-2020 18:56:38 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[07-Jul-2020 18:56:38 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[12-Jul-2020 17:23:20 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[12-Jul-2020 17:23:20 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[12-Jul-2020 17:23:20 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[12-Jul-2020 17:23:20 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[17-Jul-2020 15:31:15 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[17-Jul-2020 15:31:15 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[17-Jul-2020 15:31:15 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[17-Jul-2020 15:31:15 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[23-Jul-2020 01:29:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[23-Jul-2020 01:29:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[23-Jul-2020 01:29:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[23-Jul-2020 01:29:51 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[28-Jul-2020 01:34:30 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[28-Jul-2020 01:34:30 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[28-Jul-2020 01:34:30 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[28-Jul-2020 01:34:30 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[02-Aug-2020 00:05:16 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[02-Aug-2020 00:05:16 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[02-Aug-2020 00:05:16 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[02-Aug-2020 00:05:16 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[07-Aug-2020 01:27:09 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[07-Aug-2020 01:27:09 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[07-Aug-2020 01:27:09 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[07-Aug-2020 01:27:09 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[11-Aug-2020 23:36:15 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[11-Aug-2020 23:36:15 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[11-Aug-2020 23:36:15 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[11-Aug-2020 23:36:15 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[17-Aug-2020 00:06:39 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[17-Aug-2020 00:06:39 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[17-Aug-2020 00:06:39 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[17-Aug-2020 00:06:39 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[22-Aug-2020 00:47:46 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[22-Aug-2020 00:47:46 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[22-Aug-2020 00:47:46 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[22-Aug-2020 00:47:46 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[27-Aug-2020 01:53:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[27-Aug-2020 01:53:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[27-Aug-2020 01:53:51 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[27-Aug-2020 01:53:51 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490
+[01-Sep-2020 03:35:07 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 361
+[01-Sep-2020 03:35:07 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 363
+[01-Sep-2020 03:35:07 UTC] PHP Notice:  Undefined variable: daterange in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 364
+[01-Sep-2020 03:35:07 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php:490
+Stack trace:
+#0 {main}
+  thrown in /home/u73nip9axtlv/public_html/grcdev.projectdemoonline.com/resources/views/projects/timesheet_backup.blade.php on line 490

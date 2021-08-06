@@ -1,0 +1,1 @@
+<footer class="footer-login">© {{date('Y')}} GRC</footer>
