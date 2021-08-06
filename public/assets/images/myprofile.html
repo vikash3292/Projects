@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimal-ui">
+   <title>Admin Dashboard</title>
+   <meta content="Admin Dashboard" name="description">
+   <meta content="kloudrac" name="author">
+   <link rel="shortcut icon" href="assets/images/logo.png">
+   <!--Chartist Chart CSS -->
+   <link rel="stylesheet" href="assets/css/chartist.min.css">
+   <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+   <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+   <link href="assets/css/jquery.steps.css" rel="stylesheet" type="text/css">
+   <link href="assets/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css">
+   <link href="assets/css/select2.min.css" rel="stylesheet" type="text/css">
+   <!-- full calender css -->
+   <link href="assets/css/fullcalendar.min.css" rel="stylesheet">
+   <!-- rating css -->
+   <link href="assets/css/bootstrap-rating.css" rel="stylesheet">
+</head>
+
+<body>
+   <!-- Begin page -->
+   <div id="wrapper">
+      <!-- Top Bar Start -->
+      <div class="topbar">
+         <!-- LOGO -->
+         <div class="topbar-left">
+            <a href="index.html" class="logo">
+               <span>
+                  <img src="assets/images/logo.png" alt="" height="80">
+               </span>
+               <i><img src="assets/images/logo.png" alt="" height="40"></i>
+            </a>
+         </div>
+         <nav class="navbar-custom">
+            <div class="width-float">
+               <ul class="navbar-right list-inline float-right mb-0">
+                  <!-- notification -->
+                  <li class="dropdown notification-list list-inline-item">
+                     <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="false" aria-expanded="false"><i class="mdi mdi-bell noti-icon"></i>
+                        <span class="badge badge-pill badge-danger noti-icon-badge">0</span></a>
+                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                        <!-- item-->
+                        <h6 class="dropdown-item-text">Notifications (0)</h6>
+                        <div class="slimscroll notification-item-list">
+
+                        </div>
+                        <!-- All-->
+                        <!-- <a href="javascript:void(0);" class="dropdown-item text-center text-primary">View all <i class="fi-arrow-right"></i></a> -->
+                     </div>
+                  </li>
+                  <li class="dropdown notification-list list-inline-item">
+                     <a class="nav-link dropdown-toggle arrow-none waves-effect text-right" style="position: relative;
+                        top: -16px;">
+                        <p class="m-0">Nisha Upreti</p>
+                        <p class="m-0">Admin</p>
+                     </a>
+                  </li>
+                  <li class="dropdown notification-list list-inline-item">
+                     <div class="dropdown notification-list nav-pro-img">
+                        <a class="dropdown-toggle nav-link arrow-none waves-effect nav-user" data-toggle="dropdown"
+                           href="#" role="button" aria-haspopup="false" aria-expanded="false"><img
+                              src="assets/images/users/user-4.jpg" alt="user" class="rounded-circle"></a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown">
+                           <!-- item--> <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle m-r-5"></i>
+                              Profile</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item text-danger" href="login.html"><i
+                                 class="mdi mdi-power text-danger"></i>
+                              Logout</a>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+               <span class="grcerp">GRC ERP</span>
+               <ul class="list-inline menu-left mb-0">
+                  <li class="float-left"><button class="button-menu-mobile open-left waves-effect"><i
+                           class="mdi mdi-menu"></i></button></li>
+
+               </ul>
+            </div>
+            <!-- <div class="width-float sub-menu b-t" id="topbar-menu">
+                  <ul class="navbar-left list-inline float-left mb-0 m-l-20">
+                  
+                     <li class="dropdown notification-list list-inline-item mm-active">
+                        <a>HR</a>
+                     </li>
+                     <li class="dropdown notification-list list-inline-item">
+                        <a>BD</a>
+                     </li>
+                     <li class="dropdown notification-list list-inline-item">
+                        <a>PM</a>
+                     </li>
+                     <li class="dropdown notification-list list-inline-item">
+                        <a>Account</a>
+                     </li>
+                     <li class="dropdown notification-list list-inline-item">
+                        <a>TT</a>
+                     </li>
+                     <li class="dropdown notification-list list-inline-item">
+                        <a>Quality</a>
+                     </li>
+                  </ul>
+               </div> -->
+         </nav>
+      </div>
+      <!-- Top Bar End -->
+      <!-- ========== Left Sidebar Start ========== -->
+      <div class="left side-menu">
+         <div class="slimscroll-menu" id="remove-scroll">
+            <!--- Sidemenu -->
+            <div id="sidebar-menu">
+               <!-- Left Menu Start -->
+               <ul class="metismenu" id="side-menu">
+                  <!-- <li class="menu-title">Main</li> -->
+                  <li>
+                     <a href="index.html" class="waves-effect"><i class="mdi mdi-home-outline"></i>
+                        <span>Dashboard</span></a>
+                  </li>
+                  <li>
+                     <a href="javascript.void();" class="waves-effect"><i class="mdi mdi-settings"></i>
+                        <span>Settings</span></a>
+                  </li>
+                  <li>
+                     <a href="SWS.html" class="waves-effect"><i class="mdi mdi-settings"></i>
+                        <span>System Wide Settings</span></a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-account-edit"></i><span> HR
+                           <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span></a>
+                     <ul class="submenu">
+                        <li><a href="employees.html">Users</a></li>
+                        <li>
+                           <a href="javascript:void(0);" class="waves-effect"><span> Leave
+                                 <span class="float-right menu-arrow"><i
+                                       class="mdi mdi-chevron-right"></i></span></span></a>
+                           <ul class="submenu">
+                              <li><a href="javascript:void(0);">All Leaves</a></li>
+                              <li><a href="javascript:void(0);">Apply For Leave</a></li>
+                              <li><a href="leaveapprove.html">Leave to Approve</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-account-network"></i><span> BD
+                           <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span></a>
+                     <ul class="submenu">
+                        <li>
+                           <a href="javascript:void(0);" class="waves-effect"><span>
+                                 Leads</span></a>
+                        </li>
+                        <li>
+                           <a href="projects.html" class="waves-effect"><span>
+                                 Opportunity</span></a>
+                        </li>
+                        <li><a href="javascript:void(0);">Contact</a></li>
+                        <li><a href="org.html">Organizations</a></li>
+                        <li><a href="javascript:void(0);">Work Order</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);" class="waves-effect"> <i class="mdi mdi-account-star"></i><span> PM
+                           <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span></a>
+                     <ul class="submenu">
+                        <li>
+                           <a href="projects.html" class="waves-effect"><span>
+                                 Projects</span></a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0);" class="waves-effect"><span>
+                                 Task</span></a>
+                        </li>
+                        <li><a href="javascript:void(0);">Timesheet</a></li>
+                        <li><a href="javascript:void(0);">Documents</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-account-key"></i><span>
+                           Accounts</span></a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-television"></i><span>
+                           IT</span></a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-chart-timeline"></i><span>
+                           Quality</span></a>
+                  </li>
+                  <!-- <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="ti-pie-chart"></i><span>
+                              Reports</span></a>
+                     </li> -->
+                  <!-- <li>
+                        <a href="javascript:void(0);" class="waves-effect"><i class="ti-view-grid"></i><span>
+                              Circulars</span></a>
+                     </li> -->
+                  <li>
+                     <a href="javascript:void(0);" class="waves-effect"><i class="ti-face-smile"></i> <span>My Profile
+                        </span></a>
+                  </li>
+                  <li>
+                     <a href="login.html" class="waves-effect"><i class="ti-location-pin"></i><span> Logout</span></a>
+                  </li>
+               </ul>
+            </div>
+            <!-- Sidebar -->
+            <div class="clearfix"></div>
+         </div>
+         <!-- Sidebar -left -->
+      </div>
+      <!-- Left Sidebar End -->
+      <!-- ============================================================== -->
+      <!-- Start right Content here -->
+      <!-- ============================================================== -->
+      <div class="content-page">
+         <!-- Start content -->
+         <div class="content p-0">
+            <div class="container-fluid">
+               <div class="page-title-box">
+                  <div class="row align-items-center bredcrum-style">
+                     <div class="col-sm-6">
+                        <h3 class="page-title">My Profile</h3>
+                        <ol class="breadcrumb">
+                           <li class="breadcrumb-item"><a href="index.html">GRC</a></li>
+                           <li class="breadcrumb-item active"><a href="myprofile.html">My Profile</a></li>
+                        </ol>
+                     </div>
+                  </div>
+               </div>
+               <!-- end row -->
+               <div class="row">
+                  <div class="col-12">
+                     <div class="card m-t-20">
+                        <div class="card-body p-0">
+                           <div class="row">
+                              <div class="col-sm-12">
+                                 <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                       <div class="imguploadDiv">
+                                          <img src="assets/images/profile.png" alt="Avatar"
+                                             class="avatar img-responsive" width="100%">
+                                          <div class="imgupload">
+                                             <span><i class="mdi mdi-lead-pencil font-18"></i></span>
+                                             <input type="file">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-9">
+                                       <div class="row p-20">
+                                          <div class="col-md-12">
+                                             <div class="form-group row">
+                                                <label for="empcode" class="col-lg-4">Name</label>
+                                                <div class="col-lg-8">
+                                                   <label class="myprofile_label">Nisha Upreti
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-12">
+                                             <div class="row form-group ">
+                                                <label for="empcode" class="col-lg-4">Email ID</label>
+                                                <div class="col-lg-8">
+                                                   <label class="myprofile_label">Nupreti@gmail.com</label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-12">
+                                             <div class="row">
+                                                <label for="empcode" class="col-lg-4">Contact N0.</label>
+                                                <div class="col-lg-5">
+                                                   <label class="myprofile_label">9876543210
+                                                   </label>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                   <button class="btn btn-primary" data-toggle="modal"
+                                                      data-target="#changepsw">Change Password</button>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                       </div>
+                                    </div>
+
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <div class="card">
+                        <div class="card-body">
+                           <div class="tab">
+                              <button class="tablinks" onclick="openCity(event, 'official')" id="defaultOpen">Official
+                                 Info</button>
+                              <button class="tablinks" onclick="openCity(event, 'leaves')">Leaves</button>
+                              <button class="tablinks" onclick="openCity(event, 'holiday')">Holiday</button>
+                              <button class="tablinks" onclick="openCity(event, 'salary')">Salary</button>
+                              <button class="tablinks" onclick="openCity(event, 'personalinfo')">Personal Info</button>
+                              <button class="tablinks" onclick="openCity(event, 'contactinfo')">Contact Info</button>
+                              <button class="tablinks" onclick="openCity(event, 'experience')">Experience</button>
+                              <button class="tablinks" onclick="openCity(event, 'education')">Education</button>
+                              <button class="tablinks" onclick="openCity(event, 'training')">Training &
+                                 Certification</button>
+                              <button class="tablinks" onclick="openCity(event, 'visa')">Visa & Immigration</button>
+                              <button class="tablinks" onclick="openCity(event, 'assets')">Assets</button>
+                           </div>
+                           <div id="official" class="tabcontent">
+                              <h3>Official Info <i class="mdi mdi-pen float-right text-warning cursorpointer"
+                                    id="editemp"></i></h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="empcode" class="col-lg-4 col-form-label">User Code</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">GRC001</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="empid" class="col-lg-4 col-form-label">User ID</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">GRC2001</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="prifix" class="col-lg-4 col-form-label">Prifix</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label" id="prifixlabel">Miss.</label>
+                                             <div id="prifix">
+                                                <input type="text" class="form-control"
+                                                   style="width: 80%;display: inline-block;">
+                                                <i class="mdi mdi-close btn btn-primary"></i>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="firstname" class="col-lg-4 col-form-label">First Name</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label" id="firstlabel">Nisha</label>
+                                             <div id="firstname">
+                                                <input type="text" class="form-control"
+                                                   style="width: 80%;display: inline-block;">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="logo" class="col-lg-4 col-form-label">Last Name</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label" id="lastlabel">Upreti</label>
+                                             <input id="lastname" type="text" class="form-control"
+                                                style="width: 80%;display: inline-block;">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="email" class="col-lg-4 col-form-label">Email</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label" id="emaillabel">nupreti@gmail.com</label>
+                                             <input id="email" type="text" class="form-control"
+                                                style="width: 80%;display: inline-block;">
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="cid" class="col-lg-4 col-form-label">Medical Policy Customer
+                                             ID</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">GRCM2001</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="mode" class="col-lg-4 col-form-label">Mode of Employement</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Permanent</label>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="role" class="col-lg-4 col-form-label">Role</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">BD</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="empcat" class="col-lg-4 col-form-label">Employee Category</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Dummy</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="crdno" class="col-lg-4 col-form-label">Card No.</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">GRC2001</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="busunit" class="col-lg-4 col-form-label">Business Unit</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">2001</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="dep" class="col-lg-4 col-form-label">Department</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Sales</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="reporting" class="col-lg-4 col-form-label">Reporting
+                                             Manager</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Rahul Ranjan</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="jobtitle" class="col-lg-4 col-form-label">Job Title</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">BU</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="position" class="col-lg-4 col-form-label">Position</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Manager</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="empstatus" class="col-lg-4 col-form-label">Employement
+                                             Status</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Permanent</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="doj" class="col-lg-4 col-form-label">Date of Joining</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">04-03-2019</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="dol" class="col-lg-4 col-form-label">Date of Leaving</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">08-09-2019</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="yoe" class="col-lg-4 col-form-label">Year of Experience</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">3</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="workphn" class="col-lg-4 col-form-label">Work Phone</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">9876543210</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="extno" class="col-lg-4 col-form-label">Extension No.</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">9995</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div id="leaves" class="tabcontent">
+                              <h3>Leaves</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="leavetype" class="col-lg-4 col-form-label">Leave Type</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">PL</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="allotted" class="col-lg-4 col-form-label">Leave Allotted</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">3</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="leaveused" class="col-lg-4 col-form-label">Leave Used</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">1</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="holiday" class="tabcontent">
+                              <h3>Holiday</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-12">
+                                       <div class="table-responsive m-t-20">
+                                          <table class="table mb-0">
+                                             <thead>
+                                                <tr>
+                                                   <th>Action</th>
+                                                   <th>Holiday</th>
+                                                   <th>Holiday Type</th>
+                                                   <th>Date</th>
+                                                   <th>Description</th>
+                                                </tr>
+                                             </thead>
+                                             <tbody>
+                                                <tr>
+                                                   <th scope="row">
+                                                      <i class="mdi mdi-eye font-blue" data-toggle="modal"
+                                                         data-target="#holidayaction" title="View"></i>
+                                                   </th>
+                                                   <td>
+                                                      Merry Christmas
+                                                   </td>
+                                                   <td class="font-green">FH</td>
+                                                   <td>25 December 2019</td>
+                                                   <td class="text_ellipses">Merry Christmas and Best Wishes for a Happy
+                                                      New Year. Best wishes
+                                                      for a happy holiday season and a happy new year.</td>
+
+                                                </tr>
+                                                <tr>
+                                                   <th scope="row">
+                                                      <i class="mdi mdi-eye font-blue" data-toggle="modal"
+                                                         data-target="#holidayaction" title="View"></i>
+                                                   </th>
+                                                   <td>
+                                                      Guru Nank Jayanti
+                                                   </td>
+                                                   <td class="font-blue">RH</td>
+                                                   <td>12 November 2019</td>
+                                                   <td class="text_ellipses">Guru Nank Jayanti</td>
+                                                </tr>
+                                                <tr>
+                                                   <th scope="row">
+                                                      <i class="mdi mdi-eye font-blue" data-toggle="modal"
+                                                         data-target="#holidayaction" title="View"></i>
+                                                   </th>
+                                                   <td>
+                                                      Bhai Dooj
+                                                   </td>
+                                                   <td class="font-blue">RH</td>
+                                                   <td>29 October 2019</td>
+                                                   <td class="text_ellipses">Bhai Dooj is celebrated two days after
+                                                      Diwali, and is, like
+                                                      Raksha Bandhan, a day dedicated to the love between a brother and
+                                                      sister.</td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="salary" class="tabcontent">
+                              <h3>Salary</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="txtholiday" class="col-lg-4 col-form-label">Currency</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">INR</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="payfrq" class="col-lg-4 col-form-label">Pay
+                                             Frequency</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Monthly</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="salaryamt" class="col-lg-4 col-form-label">Salary Amount</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">50000</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="bankname" class="col-lg-4 col-form-label">Bank Name</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">ICICI</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="actname" class="col-lg-4 col-form-label">Account Holder
+                                             Name</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">XYZ ABC</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="acclassType" class="col-lg-4 col-form-label">IFSC Code</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">ICIC0003427</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="acctype" class="col-lg-4 col-form-label">Account Type</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Saving</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="accno" class="col-lg-4 col-form-label">Account No.</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">32451678549</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="personalinfo" class="tabcontent">
+                              <h3>Personal Info</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="gender" class="col-lg-4 col-form-label">Gender</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Female</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="holidayType" class="col-lg-4 col-form-label">Marital
+                                             Status</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Single</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="colortype" class="col-lg-4 col-form-label">Nationality</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Indian</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="ethnic" class="col-lg-4 col-form-label">Ethnic Code</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Hindi</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="racecode" class="col-lg-4 col-form-label">Race Code</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">GRC2001</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="dob" class="col-lg-4 col-form-label">Date of Birth</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">05-04-1993</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="racecode" class="col-lg-4 col-form-label">Blood Group</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">AB+</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="contactinfo" class="tabcontent">
+                              <h3>Contact Info</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="personalmail" class="col-lg-4 col-form-label">Personal
+                                             Email</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">abc@gmail.com</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-sm-12">
+                                       <h3>Permanent Address</h3>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="Country" class="col-lg-4 col-form-label">Country</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">India</label>
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="city" class="col-lg-4 col-form-label">City</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Delhi</label>
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="state" class="col-lg-4 col-form-label">State</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">New Delhi</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="Street" class="col-lg-4 col-form-label">Street</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">New Ashok Nagar</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="postalcode" class="col-lg-4 col-form-label">Postal Code</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">0089</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-sm-12">
+                                       <h3>Current Address</h3>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="Country" class="col-lg-4 col-form-label">Country</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">India</label>
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="city" class="col-lg-4 col-form-label">City</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Delhi</label>
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="state" class="col-lg-4 col-form-label">State</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">New Delhi</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="Street" class="col-lg-4 col-form-label">Street</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">New Ashok Nagar</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="postalcode" class="col-lg-4 col-form-label">Postal Code</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">0089</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-sm-12">
+                                       <h3>Emergancy Details</h3>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="name" class="col-lg-4 col-form-label">Name</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Neha</label>
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="email" class="col-lg-4 col-form-label">Email</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">abc@gmail.com</label>
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="contactno" class="col-lg-4 col-form-label">Contact No.</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">9876543210</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="form-group row">
+                                          <label for="offadd" class="col-lg-4 col-form-label">Office Address</label>
+                                          <div class="col-lg-8 col-form-label">
+                                             <label class="myprofile_label">Noida 65</label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="experience" class="tabcontent">
+                              <h3>Experience</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="form-group row">
+                                          <div class="col-lg-12">
+                                             <div class="table-responsive m-t-20">
+                                                <table class="table mb-0">
+                                                   <thead>
+                                                      <tr>
+                                                         <th>S.No</th>
+                                                         <th>Action</th>
+                                                         <th>Company Name</th>
+                                                         <th>Company Website</th>
+                                                         <th>Designation</th>
+                                                         <th>From Date</th>
+                                                         <th>To Date</th>
+                                                      </tr>
+                                                   </thead>
+                                                   <tbody>
+                                                      <tr>
+                                                         <th scope="row">1</th>
+                                                         <td>
+                                                            <i class="mdi mdi-pen text-warning" data-toggle="modal"
+                                                               data-target="#editemp" title="Edit"></i>
+                                                            <i class="mdi mdi-delete text-danger" data-toggle="modal"
+                                                               data-target="#deletemp" title="Delete"></i>
+                                                         </td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="education" class="tabcontent">
+                              <h3>Education</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="form-group row">
+                                          <div class="col-lg-12">
+                                             <div class="table-responsive m-t-20">
+                                                <table class="table mb-0">
+                                                   <thead>
+                                                      <tr>
+                                                         <th>S.No</th>
+                                                         <th>Action</th>
+                                                         <th>Education Level</th>
+                                                         <th>Institution Name</th>
+                                                         <th>Course</th>
+                                                         <th>From Date</th>
+                                                         <th>To Date</th>
+                                                      </tr>
+                                                   </thead>
+                                                   <tbody>
+                                                      <tr>
+                                                         <th scope="row">1</th>
+                                                         <td>
+                                                            <i class="mdi mdi-pen text-warning" data-toggle="modal"
+                                                               data-target="#editemp" title="Edit"></i>
+                                                            <i class="mdi mdi-delete text-danger" data-toggle="modal"
+                                                               data-target="#deletemp" title="Delete"></i>
+                                                         </td>
+                                                         <td>Post Graduate</td>
+                                                         <td>Amarapali Institute</td>
+                                                         <td>MCA</td>
+                                                         <td>2014</td>
+                                                         <td>2016</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <th scope="row">2</th>
+                                                         <td>
+                                                            <i class="mdi mdi-pen text-warning" data-toggle="modal"
+                                                               data-target="#editemp" title="Edit"></i>
+                                                            <i class="mdi mdi-delete text-danger" data-toggle="modal"
+                                                               data-target="#deletemp" title="Delete"></i>
+                                                         </td>
+                                                         <td>Graduation</td>
+                                                         <td>MBPG</td>
+                                                         <td>B.sc</td>
+                                                         <td>2010</td>
+                                                         <td>2013</td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="training" class="tabcontent">
+                              <h3>Training & Certification</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="form-group row">
+                                          <div class="col-lg-12">
+                                             <div class="table-responsive m-t-20">
+                                                <table class="table mb-0">
+                                                   <thead>
+                                                      <tr>
+                                                         <th>S.No</th>
+                                                         <th>Action</th>
+                                                         <th>Course Name</th>
+                                                         <th>Course Type</th>
+                                                         <th>Course Offered By</th>
+                                                         <th>Certification/Training Name</th>
+                                                         <th>Fromo Date</th>
+                                                         <th>To Date</th>
+                                                      </tr>
+                                                   </thead>
+                                                   <tbody>
+                                                      <tr>
+                                                         <th scope="row">1</th>
+                                                         <td>
+                                                            <i class="mdi mdi-link text-primary" data-toggle="modal"
+                                                               data-target="#feedback" title="Feedback"></i>
+                                                            <i class="mdi mdi-pen text-warning" data-toggle="modal"
+                                                               data-target="#trainingedit" title="Edit"></i>
+                                                            <i class="mdi mdi-delete text-danger" data-toggle="modal"
+                                                               data-target="#trainingdelete" title="Delete"></i>
+                                                         </td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                         <td>Dummy</td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="visa" class="tabcontent">
+                              <h3>Visa & Immigration</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="form-group row">
+                                          <div class="col-lg-12">
+                                             <div class="table-responsive m-t-20">
+                                                <table class="table mb-0">
+                                                   <thead>
+                                                      <tr>
+                                                         <th>S.No</th>
+                                                         <th>Passport Number</th>
+                                                         <th>Passport Issued Date</th>
+                                                         <th>Passport Expiry Date</th>
+                                                         <th>Visa Type</th>
+                                                         <th>Visa Number</th>
+                                                      </tr>
+                                                   </thead>
+                                                   <tbody>
+                                                      <tr>
+                                                         <th scope="row">1</th>
+                                                         <td>897676576</td>
+                                                         <td>09-02-2016</td>
+                                                         <td>09-02-2032</td>
+                                                         <td>Work Visa</td>
+                                                         <td>45354</td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="assets" class="tabcontent">
+                              <h3>Assets</h3>
+                              <div class="width-float">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="form-group row">
+                                          <div class="col-lg-12">
+                                             <div class="table-responsive m-t-20">
+                                                <table class="table mb-0">
+                                                   <thead>
+                                                      <tr>
+                                                         <th>S.No</th>
+                                                         <th>Asset Name</th>
+                                                         <th>Serial Number</th>
+                                                      </tr>
+                                                   </thead>
+                                                   <tbody>
+                                                      <tr>
+                                                         <th scope="row">1</th>
+                                                         <td>Mouse</td>
+                                                         <td>Mouse012</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <th scope="row">2</th>
+                                                         <td>Keyboard</td>
+                                                         <td>Keyboard012</td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- end col -->
+               </div>
+               <!-- end row -->
+            </div>
+            <!-- container-fluid -->
+            <!-- change password -->
+            <div id="changepsw" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+               aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title mt-0" id="myModalLabel">Change Password</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="form-group row">
+                           <label for="currentpsd" class="col-lg-4 col-form-label">
+                              Current Password</label>
+                           <div class="col-lg-8">
+                              <input id="currentpsd" name="currentpsd" type="text" class="form-control">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="newpsd" class="col-lg-4 col-form-label">
+                              New Password</label>
+                           <div class="col-lg-8">
+                              <input id="newpsd" name="newpsd" type="text" class="form-control">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="cnfpsd" class="col-lg-4 col-form-label">
+                              Confirm Password</label>
+                           <div class="col-lg-8">
+                              <input id="cnfpsd" name="cnfpsd" type="text" class="form-control">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="cnfpsd" class="col-lg-4 col-form-label">
+                              Choose Theme</label>
+                           <div class="col-lg-8">
+                              <select class="form-control">
+                                 <option>Select Theme</option>
+                                 <option><i class="mdi mdi-checkbox-blank text-light">Light</i></option>
+                                 <option><i class="mdi mdi-checkbox-blank text-dark">Dark</i></option>
+                                 <option><i class="mdi mdi-checkbox-blank text-primary">Primary</i></option>
+                              </select>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary waves-effect">Save</button>
+                        <button type="button" class="btn btn-secondary waves-effect waves-light"
+                           data-dismiss="modal">Cancel</button>
+                     </div>
+                  </div>
+                  <!-- /.modal-content -->
+               </div>
+               <!-- /.modal-dialog -->
+            </div>
+            <!-- feedback popup -->
+            <div id="feedback" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+               aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title mt-0" id="myModalLabel">Trainer Feedback</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="form-group row">
+                           <div class="table-responsive m-t-20">
+                              <table class="table mb-0">
+                                 <thead>
+                                    <tr>
+                                       <th>S.No</th>
+                                       <th>Course Name</th>
+                                       <th>Course Level</th>
+                                       <th>Course Offered By</th>
+                                       <th>Certification/Training Name</th>
+                                       <th>Fromo Date</th>
+                                       <th>To Date</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <th scope="row">1</th>
+                                       <td>Dummy</td>
+                                       <td>Dummy</td>
+                                       <td>Dummy</td>
+                                       <td>Dummy</td>
+                                       <td>Dummy</td>
+                                       <td>Dummy</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <div class="col-sm-12 text-center">
+                              <h5>Feedbaack Form</h5>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="currentpsd" class="col-lg-4 col-form-label">
+                              Provide rating to trainer</label>
+                           <div class="col-lg-8">
+                              <input type="hidden" class="rating check" data-filled="mdi mdi-star text-primary"
+                                 data-empty="mdi mdi-star-outline text-muted">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="newpsd" class="col-lg-4 col-form-label">
+                              Quality of trainer</label>
+                           <div class="col-lg-8">
+                              <input type="hidden" class="rating check" data-filled="mdi mdi-star text-primary"
+                                 data-empty="mdi mdi-star-outline text-muted">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="cnfpsd" class="col-lg-4 col-form-label">
+                              Quality of Communication</label>
+                           <div class="col-lg-8">
+                              <input type="hidden" class="rating check" data-filled="mdi mdi-star text-primary"
+                                 data-empty="mdi mdi-star-outline text-muted">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="cnfpsd" class="col-lg-4 col-form-label">
+                              Any Feedback you want for trainer</label>
+                           <div class="col-lg-8">
+                              <textarea rows="3" class="form-control"></textarea>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="cnfpsd" class="col-lg-4 col-form-label">
+                              Any Specificies</label>
+                           <div class="col-lg-8">
+                              <textarea rows="3" class="form-control"></textarea>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary waves-effect">Submit</button>
+                        <button type="button" class="btn btn-secondary waves-effect waves-light"
+                           data-dismiss="modal">Cancel</button>
+                     </div>
+                  </div>
+                  <!-- /.modal-content -->
+               </div>
+               <!-- /.modal-dialog -->
+            </div>
+            <!-- Holiday Action -->
+            <div id="holidayaction" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+               aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title mt-0" id="myModalLabel">View</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="form-group row">
+                           <div class="table-responsive m-t-20">
+                              <table class="table mb-0">
+                                 <thead>
+                                    <tr>
+                                       <th>Holiday</th>
+                                       <th>Merry Christmas</th>
+                                       <th>Holiday Group</th>
+                                       <th>FH</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <th scope="row">Date</th>
+                                       <td>25 December 2019</td>
+                                       <td>Description</td>
+                                       <td class="text_ellipses">Merry Christmas and Best Wishes for a Happy New Year.
+                                          Best wishes for a happy
+                                          holiday season and a happy new year.</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary waves-effect" data-dismiss="modal">Back</button>
+                     </div>
+                  </div>
+                  <!-- /.modal-content -->
+               </div>
+               <!-- /.modal-dialog -->
+            </div>
+         </div>
+         <!-- content -->
+         <footer class="footer">© 2019 GRC</footer>
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Right content here -->
+      <!-- ============================================================== -->
+   </div>
+   <!-- END wrapper -->
+   <!-- jQuery  -->
+   <script src="assets/js/jquery.min.js"></script>
+
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/metisMenu.min.js"></script>
+   <script src="assets/js/jquery.slimscroll.js"></script>
+   <script src="assets/js/waves.min.js"></script>
+
+   <!--Chartist Chart-->
+   <script src="assets/js/chartist.min.js"></script>
+   <script src="assets/js/chartist-plugin-tooltip.min.js"></script>
+
+   <script src="assets/js/chart.min.js"></script>
+   <script src="assets/pages/chartjs.init.js"></script>
+   <!-- peity JS -->
+   <script src="assets/js/jquery.peity.min.js"></script>
+   <script src="assets/js/dashboard.js"></script>
+   <!-- App js -->
+   <script src="assets/js/app.js"></script>
+   <script src="assets/js/jquery-knob/excanvas.js"></script>
+   <script src="assets/js/jquery-knob/jquery.knob.js"></script>
+   <script src="assets/js/jquery.steps.min.js"></script>
+   <script src="assets/js/bootstrap-datepicker.js"></script>
+   <script src="assets/js/jquery.bootstrap-touchspin.min.js"></script>
+   <script src="assets/js/bootstrap-filestyle.min.js"></script>
+   <script src="assets/js/form-advanced.js"></script>
+   <script src="assets/js/select2.min.js"></script>
+
+   <script>$(function () {
+         $("#form-horizontal").steps({
+            headerTag: "h3",
+            bodyTag: "fieldset",
+            transitionEffect: "slide"
+         });
+      });
+   </script>
+   <script>$(function () {
+         $(".knob").knob();
+      });
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+   <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+         type: 'bar',
+         data: {
+            labels: ['Design', 'Development', 'Sales', 'Marketing', 'HR', 'Finance', 'Support', 'Management', 'QA'],
+            datasets: [{
+               label: 'Department',
+               data: [10, 19, 30, 50, 50, 30, 60, 70, 47, 40, 80, 70],
+               backgroundColor: [
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+               ],
+               borderColor: [
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+                  'rgb(115, 166, 244)',
+                  'rgb(95, 227, 132)',
+               ],
+               borderWidth: 1
+            }]
+         },
+         options: {
+            legend: {
+               display: false
+            },
+            scales: {
+               yAxes: [{
+                  ticks: {
+                     beginAtZero: true,
+                     steps: 10,
+                     stepSize: 5,
+                     stepValue: 6,
+                     max: 50 //max value for the chart is 60
+                  }
+               }]
+            }
+         }
+      });
+
+   </script>
+   <script>
+      var ctx = document.getElementById('leavechart');
+      ctx.width = 400;
+      ctx.height = 300;
+      var leavechart = new Chart(ctx, {
+         type: 'doughnut',
+         data: {
+            datasets: [{
+               data: [7000, 3000],
+               backgroundColor: [
+                  'rgb(185, 246, 202)',
+                  'rgb(115,166,244,1)'
+
+               ],
+               borderColor: [
+                  'rgb(185, 246, 202)',
+                  'rgb(255, 179, 0)'
+
+               ],
+               borderWidth: 0,
+               // label: 'Dataset 1'
+
+            }],
+
+            dataLabels: {
+               style: {
+                  fontSize: 20
+               }
+            },
+
+
+            labels: [
+               'Panding',
+               'Completed'
+            ]
+         },
+         options: {
+            responsive: true,
+            cutoutPercentage: 50,
+            legend: {
+               fontColor: "white",
+               fontSize: 10,
+               position: 'bottom'
+            },
+
+         }
+
+
+      });
+   </script>
+   <script>
+      function openCity(evt, cityName) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablinks");
+         for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+         }
+         document.getElementById(cityName).style.display = "block";
+         evt.currentTarget.className += " active";
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+   </script>
+   <!-- full calender -->
+   <script src="assets/js/jquery-ui.min.js"></script>
+   <script src="assets/js/moment.js"></script>
+   <script src="assets/js/fullcalendar.min.js"></script>
+   <script src="assets/js/calendar-init.js"></script>
+   <!--end full calender -->
+   <!-- rating js -->
+   <script src="assets/js/bootstrap-rating.min.js"></script>
+   <script src="assets/js/rating-init.js"></script>
+   <script src="assets/js/custom.js"></script>
+
+   <!--end rating js -->
+</body>
+
+</html>
